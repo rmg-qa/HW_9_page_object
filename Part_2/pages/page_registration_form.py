@@ -2,7 +2,7 @@ import os
 from selene import browser, have
 from selenium.webdriver import Keys
 from Part_2.locators.locators_form_registration import LocatorsPageRegistrationForm
-from Part_2.data.URL import URL_FORM_REGISTRATIONS
+from Part_2.data.url import URL_FORM_REGISTRATIONS
 
 
 class RegistrationFormMethods:
