@@ -36,7 +36,7 @@ class RegistrationForm:
         browser.element('[for="hobbies-checkbox-1"]').click()
 
     def add_picture(self):  # добавлене изображения
-        browser.element('.//input[@class="form-control-file"]').type(os.path.abspath('helpers/qa-guru.jpg'))
+        browser.element('.//input[@class="form-control-file"]').type(os.path.abspath('data/qa-guru.jpg'))
 
     def filling_current_adress(self, text):  # заполнение текущего адреса
         browser.element('[id="currentAddress"]').type(text)
