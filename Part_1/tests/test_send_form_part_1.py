@@ -1,5 +1,5 @@
 from selene import have
-from pages.page_registration import RegistrationForm
+from Part_1.pages.page_registration import RegistrationForm
 
 
 def test_send_form_part_1(browser_settings):
