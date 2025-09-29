@@ -24,7 +24,7 @@ class SimpleRegistration:
         browser.element(LocatorsPageRegistrationForm.FIELD_MULTISELECT_SUBJECT).type(user.math)
         browser.element(LocatorsPageRegistrationForm.VALUE_MULTISELECT_SUBJECT).click()
         browser.element(LocatorsPageRegistrationForm.CHECK_BOX_HOBBIES_SPORTS).click()
-        browser.element(LocatorsPageRegistrationForm.FIELD_ADD_PICTURE).type(os.path.abspath('Part_2/data/qa-guru.jpg'))
+        browser.element(LocatorsPageRegistrationForm.FIELD_ADD_PICTURE).type(os.path.abspath('Part_2/resources/qa-guru.jpg'))
         browser.element(LocatorsPageRegistrationForm.FIELD_CURRENT_ADDRESS).type(user.current_address)
         browser.element(LocatorsPageRegistrationForm.MULTISELECT_STATE).click()
         browser.element(LocatorsPageRegistrationForm.STATE_NCR).click()
